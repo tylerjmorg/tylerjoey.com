@@ -3,18 +3,30 @@
   <head>
     <title>404 Error</title>
     <link rel="icon" type="image/svg" href="/elements/icons/favicon.svg">
+    <link rel="stylesheet" href="/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The 404 page not found lander for Tyler & Joey.">
   </head>
-    <body style="background-color:#22263e;">
-      <div>
-        <h1 style="color: #FFFFFF; margin-top: 90px; text-align: center; font-family: Helvetica; font-size: 180px; font-weight: normal;">404</h1>
+  <body style="background-color:#22263e;">
+    <header aria-label="404 Error">
+      <h1 style="color: #FFFFFF; margin-top: 90px; text-align: center; font-family: Helvetica; font-size: 180px; font-weight: normal;">404</h1>
+    </header>
+    <main aria-label="Homepage Redirect">
+      <div style="color: #FFFFFF; margin-top: 60px; text-align: center; margin-bottom: 20px;">
+        <span style="font-family: Helvetica; font-size: 20px;">
+          This page no longer exists.
+        </span>
       </div>
       <div>
-        <p style="color: #FFFFFF; margin-top: 60px; text-align: center; font-family: Helvetica; font-size: 20px;">This page no longer exists.</p>
+        <a role="button" class="social-button" style="height: 57px; max-width: 250px;" href="https://tylerjoey.com">
+          <p class="social-txt">Return to Homepage</p>
+        </a>
       </div>
-      <div>
-        <p style="color: #FFFFFF; margin-top: 15px; text-align: center; font-family: Helvetica; font-size: 20px;">Homepage: <a style="color: #FFFFFF;" href="https://tylerjoey.com">https://tylerjoey.com</a></p>
-      </div>
-    </body>
-  </html>
+    </main>
+    <footer aria-label="Copyright">
+      <span>
+        <p class="footer">© 2024 Tyler Morgan & Joseph Pineda. All rights reserved.</p>
+      </span>
+    </footer>
+  </body>
+</html>
