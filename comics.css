@@ -1,0 +1,107 @@
+:root {
+    color: var(--primary-color);
+   }
+   .table-view{
+    box-shadow: inset #00000055 0px 0px 8px 0px;
+    overflow-x: scroll;
+    height: 573px;
+    border-radius: 15px;
+   }
+   table {
+    border-collapse: separate;
+    border-spacing: 0;
+    color: var(--primary-color);
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+   }
+   td, th {
+    text-align: center;
+    padding: 5px;
+   }
+   tr:nth-child(even) {
+    background-color: var(--secondary-bkg-color);
+   }
+   tr:nth-child(even) td:first-of-type{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+   }
+   tr th:first-of-type{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+   }
+   tr:nth-child(even) td:last-of-type{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   }
+   tr th:last-of-type{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   }
+   a {
+    text-decoration: underline solid transparent;
+    font-weight: bold;
+    color: var(--biolink-color);
+    cursor: pointer;
+    transition: color 150ms linear, text-decoration 150ms linear;
+   }
+   a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline solid currentColor;
+   }
+   svg {
+    vertical-align: middle;
+    margin-left: 5px;
+   }
+   .bottom-link-group {
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .bottom-link {
+    text-decoration: underline solid transparent;
+    font-weight: bold;
+    color: var(--biolink-color);
+    fill: var(--biolink-color);
+    cursor: pointer;
+    transition: color 150ms linear, text-decoration 150ms linear, fill 150ms linear;
+   }
+   .bottom-link:hover {
+    color: var(--primary-hover);
+    fill: var(--primary-hover);
+    text-decoration: underline solid currentColor;
+   }
+   thead{
+    padding-top: 5px;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 2px 8px 0px;
+    border-radius: 15px;
+    background-color: var(--bkg-color-3-trans);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+   }
+   .updates {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+   h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+   }
+   .update-head {
+    text-decoration: underline;
+   }
+   .defs {
+    font-size: 14px;
+   }
+   .footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -5px;
+   }
