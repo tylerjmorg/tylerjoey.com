@@ -12,12 +12,14 @@
     border-spacing: 0;
     color: var(--primary-color);
     width: 100%;
-    justify-content: center;
     margin: auto;
+    font-size: 12px;
+    justify-content: center;
    }
    td, th {
     text-align: center;
     padding: 5px;
+    text-wrap: pretty;
    }
    tr:nth-child(even) {
     background-color: var(--secondary-bkg-color);
@@ -76,6 +78,7 @@
     top: 0;
     box-shadow: rgba(0, 0, 0, 0.34) 0px 2px 8px 0px;
     border-radius: 15px;
+    font-size: 14px;
     background-color: var(--bkg-color-3-trans);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -104,4 +107,8 @@
     font-size: 12px;
     text-align: center;
     margin-top: -5px;
+   }
+   .label2 {
+    font-style: italic;
+    color: var(--sec-color);
    }

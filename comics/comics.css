@@ -1,0 +1,130 @@
+:root {
+ color: var(--primary-color);
+ font-size: 0.85rem;
+}
+
+@media (min-width: 951px) {
+ .comic-grid {
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 30px 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  width: 97.5%;
+  font-size: 0.95rem;
+}
+.comic {
+ padding: 15px;
+ border-radius: 10px;
+ display: block;
+ background-color: var(--secondary-bkg-color);
+}
+}
+
+@media (max-width: 950px) {
+ .comic-grid {
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 30px 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  width: 97.5%;
+  font-size: 0.95rem;
+}
+.comic {
+ padding: 15px;
+ border-radius: 10px;
+ background-color: var(--secondary-bkg-color);
+}
+}
+
+@media (max-width: 500px) {
+ .comic-grid {
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 30px 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  width: 97.5%;
+  font-size: 0.95rem;
+}
+.comic {
+ padding: 15px;
+ border-radius: 10px;
+ background-color: var(--secondary-bkg-color);
+}
+}
+
+h1 {
+ text-align: center;
+ font-size: 2.7rem;
+}
+
+.comic-img {
+ width: 100%;
+}
+.label2 {
+ font-style: italic;
+ color: var(--sec-color);
+}
+
+a {
+ text-decoration: underline solid transparent;
+ font-weight: bold;
+ color: var(--biolink-color);
+ cursor: pointer;
+ transition: color 150ms linear, text-decoration 150ms linear;
+}
+a:hover {
+ color: var(--primary-hover);
+ text-decoration: underline solid currentColor;
+}
+
+.label {
+ font-weight: bold;
+}
+
+.content {
+ font-size: 0.87rem;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.7s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+ background-color: rgba(0, 0, 0, 0);
+}
+
+.collapsible {
+ font-family: 'Noto Sans', sans-serif;
+ font-weight: 400;
+ background-color: var(--button-action);
+ color: var(--primary-color);
+ cursor: pointer;
+ border: none;
+ font-size: 0.87rem;
+ border-radius: 10px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ width: 80px;
+ transform: scale(1);
+ transition: background-color 175ms linear, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+
+.collapsible:hover {
+ transform: scale(1.05);
+}
+
+.active, .collapsible:active {
+ background-color: var(--button-action-active);
+}
+
+.footer {
+ font-size: 12px;
+ text-align: center;
+ margin-top: 30px;
+}
