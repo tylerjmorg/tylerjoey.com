@@ -13,7 +13,7 @@ for (let i = 0; i < coll.length; i++) {
     console.log("Next sibling element:", content);
 
     // Handle case when content is null
-    if (content && content.classList.contains("content")) {
+    if (content && content.classList.contains("content-1")) {
       if (content.style.maxHeight) {
         content.style.maxHeight = null;
       } else {

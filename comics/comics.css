@@ -1,6 +1,6 @@
 :root {
  color: var(--primary-color);
- font-size: 0.85rem;
+ font-size: 0.89rem;
 }
 
 @media (min-width: 951px) {
@@ -17,7 +17,7 @@
   font-size: 0.95rem;
 }
 .comic {
- padding: 15px;
+ padding: 10px;
  border-radius: 10px;
  display: block;
  background-color: var(--secondary-bkg-color);
@@ -37,7 +37,7 @@
   font-size: 0.95rem;
 }
 .comic {
- padding: 15px;
+ padding: 10px;
  border-radius: 10px;
  background-color: var(--secondary-bkg-color);
 }
@@ -56,7 +56,7 @@
   font-size: 0.95rem;
 }
 .comic {
- padding: 15px;
+ padding: 10px;
  border-radius: 10px;
  background-color: var(--secondary-bkg-color);
 }
@@ -91,8 +91,8 @@ a:hover {
  font-weight: bold;
 }
 
-.content {
- font-size: 0.87rem;
+.content-1 {
+ font-size: 0.9rem;
  max-height: 0;
  overflow: hidden;
  transition: max-height 0.7s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
@@ -106,10 +106,10 @@ a:hover {
  color: var(--primary-color);
  cursor: pointer;
  border: none;
- font-size: 0.87rem;
+ font-size: 0.9rem;
  border-radius: 10px;
- padding-top: 3px;
- padding-bottom: 3px;
+ padding-top: 4px;
+ padding-bottom: 4px;
  width: 100px;
  transform: scale(1);
  transition: background-color 175ms linear, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
@@ -127,4 +127,9 @@ a:hover {
  font-size: 12px;
  text-align: center;
  margin-top: 30px;
+}
+
+.content-1 > p {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }

@@ -19,9 +19,9 @@ function initializeComicGrid() {
      const issue = item.issue ? ` #${item.issue}` : '';
      const lgy = item.lgy ? ` (${item.lgy})` : '';
      const variant = item.variant ? `<br><span class="label2">${item.variant} Edition</span>` : '';
-     table += `<p>${item.title}${issue}${lgy}${variant}</p></div><button class="collapsible" id="aboutMeButton" data-target-id="aboutMeContent">Learn More</button>`;
+     table += `<p>${item.title}${issue}${lgy}${variant}</p></div><button class="collapsible" id="aboutMeButton" data-target-id="aboutMeContent">More info</button>`;
     } else if (column === 'qty') {
-     table += `<div id="aboutMeContent" class="content"><p><span class="label">Qty:</span> ${item.qty}</p>`;
+     table += `<div id="aboutMeContent" class="content-1" aria-hidden="true"><p><span class="label">Qty:</span> ${item.qty}</p>`;
     } else if (column === 'publisher') {
      const shortname = item.shortname ? ` (${item.shortname})` : '';
      table += `<p><span class="label">Publisher:</span> ${item.publisher}${shortname}</p>`;
