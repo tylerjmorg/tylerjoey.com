@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
-    initializeComicGrid(); // From comicgrid.js
-    initializeCollapsible(); // From collapsible.js
-});
+function initialize() {
+    initializeComicGrid();
+    initializeCollapsible();
+  }
+  
+  document.addEventListener('DOMContentLoaded', initialize);

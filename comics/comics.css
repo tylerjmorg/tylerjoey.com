@@ -113,6 +113,7 @@ a:hover {
  width: 100px;
  transform: scale(1);
  transition: background-color 175ms linear, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+ bottom: 0px;
 }
 
 .collapsible:hover {
