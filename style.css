@@ -110,3 +110,16 @@ h2 {
   text-align: center;
   box-sizing: inherit;
 }
+
+.content-link {
+  text-decoration: underline solid transparent;
+  font-weight: bold;
+  color: var(--biolink-color);
+  cursor: pointer;
+  transition: color 150ms linear, text-decoration 150ms linear;
+ }
+
+ .content-link:hover {
+  color: var(--primary-hover);
+  text-decoration: underline solid currentColor;
+ }
