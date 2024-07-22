@@ -4,9 +4,9 @@ function initializeComicGrid() {
  fetch('/comics/comics.json')
    .then(response => response.json())
    .then(data => {
-     let table = '<div class="comic-grid">';
+     let table = '<ul class="comic-grid">';
      data.forEach((item, index) => {
-       table += '<div class="comic">';
+       table += '<li class="comic">';
        columnOrder.forEach(column => {
          if (column === 'idFile') {
            table += `<div><img class="comic-img" alt="Comic cover" src="/comics/img/covers/${item.id}.avif">`;
@@ -38,15 +38,15 @@ function initializeComicGrid() {
            table += `<p>Database Link: <a target="_blank" tabindex="-1" href="https://www.comics.org/issue/${item.id}/">${item.id}</a></p>`;
          } else if (column === 'notes') {
            const hasNotes = Array.isArray(item[column]) && item[column].some(note => note.trim() !== '');
-           const ifnotes = hasNotes ? item[column].join('<br><br>') : ' none';
+           const ifnotes = hasNotes ? item[column].join('<br><br>') : ' <span class="label2">none</span>';
            table += `<p><br><span class="label">Notes:</span>${hasNotes ? '<br>' : ''}${ifnotes}</p></div>`;
          } else {
            table += ``;
          }
        });
-       table += '</div>';
+       table += '</li>';
      });
-     table += '</div>';
+     table += '</ul>';
 
      document.getElementById('table-container').innerHTML = table;
      // Initialize collapsibles after content is added

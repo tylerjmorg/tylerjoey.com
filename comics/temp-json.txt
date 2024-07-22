@@ -29,7 +29,7 @@
  month = release month (e.g., 09) | required if applicable
  writers = comic script and plot writers [multiple value] (e.g., Jason Aaron) | required if applicable
  illustrators = comic pencil and color illustrators [multiple value] (e.g., Ed McGuinness, Paco Medina, David Curiel) | required if applicable
- era = comic era - victorian: 1842-1897, platinum: 1898-1938, golden: 1939-1956, silver: 1957-1970, bronze: 1971-1984, modern: 1985-present (e.g., Modern) | required
+ era = comic era - victorian: 1842-1897, platinum: 1898 - 1938-04-17, golden: 1938-04-18 - 1956-09-04, silver: 1956-09-05 - 1970-09-30, bronze: 1970-10-01 - 1986-02-28, modern: 1986-03-01 - present (e.g., Modern) | required
  cgc = cgc grade (e.g., 9.8) | required
  id = comics.org issue id, findable by issue url: comics.org/issue/######/ (e.g., 1822577) | required
  notes = other notes about the comic [multiple value] (e.g., This comic has a ~20cm vertical tear on the back.) | optional

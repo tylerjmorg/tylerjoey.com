@@ -14,13 +14,26 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   width: 97.5%;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 .comic {
  padding: 10px;
  border-radius: 10px;
  display: block;
  background-color: var(--secondary-bkg-color);
+}
+.link-grid {
+  padding-top: 25px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 30px 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  font-size: 0.92rem;
 }
 }
 
@@ -34,12 +47,26 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   width: 97.5%;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 .comic {
  padding: 10px;
  border-radius: 10px;
  background-color: var(--secondary-bkg-color);
+}
+
+.link-grid {
+  padding-top: 25px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 30px 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  font-size: 0.92rem;
 }
 }
 
@@ -53,12 +80,25 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   width: 97.5%;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 .comic {
  padding: 10px;
  border-radius: 10px;
  background-color: var(--secondary-bkg-color);
+}
+.link-grid {
+  padding-top: 25px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 30px 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  font-size: 0.92rem;
 }
 }
 
@@ -133,4 +173,15 @@ a:hover {
 .content-1 > p {
   margin-top: 2px;
   margin-bottom: 2px;
+}
+
+li {
+  text-indent: 0px;
+  padding: 0;
+  list-style-type: none;
+}
+ul {
+  text-indent: 0px;
+  padding: 0;
+  list-style-type: none;
 }

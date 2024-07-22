@@ -1,9 +1,11 @@
 #
 # robots.txt for https://tylerjoey.com/
 #
-# Last Updated: 2024-04-28T03:48:00Z
+# Last Updated: 2024-07-21T16:50:00Z
 #
 
 # Disallow 404 error page
 User-agent: *
 Disallow: /404.html/
+
+Sitemap: https://tylerjoey.com/docs/sitemap/sitemap.xml
