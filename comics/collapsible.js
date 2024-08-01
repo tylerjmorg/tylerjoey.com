@@ -31,7 +31,7 @@ function initializeCollapsible() {
       button.addEventListener("click", function() {
         let targetId = this.getAttribute("data-target-id");
         let element = document.getElementById(targetId);
-        let contentLinks = element ? element.querySelectorAll(".content-link, .dark-btn") : [];
+        let contentLinks = element ? element.querySelectorAll(".content-link, .dark-btn, a") : [];
   
         if (this.getAttribute("aria-expanded") === "true") {
           this.setAttribute("aria-expanded", "false");

@@ -23,7 +23,9 @@ function initializeComicGrid() {
            const shortname = item.shortname ? ` (${item.shortname})` : '';
            table += `<p><span class="label">Publisher:</span> ${item.publisher}${shortname}</p>`;
          } else if (column === 'year') {
-           table += `<p><span class="label">Release Year:</span> ${item.year}</p>`;
+           const month = item.month ? `-${item.month}` : '';
+           const day = item.day ? `-${item.day}` : '';
+           table += `<p><span class="label">Release Year:</span> <time datetime="${item.year}${month}${day}">${item.year}</time></p>`;
          } else if (column === 'writers') {
            const writers = Array.isArray(item[column]) ? item[column].join(', ') : item[column];
            table += `<p><span class="label">Writer(s):</span> ${writers}</p>`;
