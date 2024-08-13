@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comic Collection</title>
-  <link rel="preload" href="/comics/comicgrid.js" integrity="sha384-QU10Rad53ikRefp1MBJE8easzUBtb3iRvsKq268CDa3PJL2ghs3Dr+qA1htDikEX" as="script">
-  <link rel="preload" href="/comics/collapsible.js" integrity="sha384-zceCa+MRC5QbmM5ky9YyregZc9gbgmS0/Lnxq7Dn8SjutPtPmTBlQxC355DrEWRy" as="script">
-  <link rel="preload" href="/comics/init.js" integrity="sha384-8DmA6/2E+KTBzJBgjZsIcBIZh9dAygq9vyXoVPHuHn7RqdtBXy8grXrbQYB0N5Ep" as="script">
-  <link rel="preload" href="/comics/comics.css" integrity="sha384-ND7MhPmlXfej3eOKl/GMx0JRmKjGJUNe9yvDpegjOuHUzsVLPXDKp6UFtdsIgnsg" as="style">
-  <link rel="preload" href="https://tylermorgan.co/style.css" integrity="sha384-XPux7+PuNxpTy479xro7TzLNUDG123UTKr54aHCIkds1aYl8SkNXk5J8lZuxbDmC" crossorigin="anonymous" as="style">
-  <link rel="stylesheet" href="https://tylermorgan.co/style.css" integrity="sha384-XPux7+PuNxpTy479xro7TzLNUDG123UTKr54aHCIkds1aYl8SkNXk5J8lZuxbDmC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/comics/comics.css" integrity="sha384-ND7MhPmlXfej3eOKl/GMx0JRmKjGJUNe9yvDpegjOuHUzsVLPXDKp6UFtdsIgnsg">
-  <meta name="description" content="An inventory of Joey's comic collection.">
-  <link rel="icon" type="image/svg" media="(prefers-color-scheme: light)" href="/elements/icons/favicon-day.svg">
-  <link rel="icon" type="image/svg" media="(prefers-color-scheme: dark)" href="/elements/icons/favicon-night.svg">
-  <link rel="icon" type="image/avif" media="(prefers-color-scheme: dark)" href="/elements/icons/favicon-night-180.avif">
-  <link rel="icon" type="image/avif" media="(prefers-color-scheme: light)" href="/elements/icons/favicon-day-180.avif">
-  <link rel="icon" type="image/avif" sizes="192x192" media="(prefers-color-scheme: dark)" href="/elements/icons/favicon-night-192.avif">
-  <link rel="icon" type="image/avif" sizes="192x192" media="(prefers-color-scheme: light)" href="/elements/icons/favicon-day-192.avif">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.avif">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#444444">
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121111">
-  <link rel="canonical" href="https://tylerjoey.com/comics/">
-  <meta name="keywords" content="comic, tyler, joey, database, inventory, marvel, dc">
- </head>
- <body>
-  <header>
-   <h1>COMIC COLLECTION</h1>
-  </header>
-  <main>
-   <div id="table-container"></div>
-   <section class="link-grid">
-    <div><a target="_blank" href="https://www.amazon.com/dp/B00F9E8SGU">Order Modern Bags (100)</a></div>
-    <div><a target="_blank" href="https://www.amazon.com/dp/B00W67VH6Q">Order Current Boards (100)</a></div>
-    <div><a target="_blank" href="https://www.comiccapsule.com/collections/comiccapsule">Order ComicCapsule</a></div>
-    <div><a target="_blank" href="https://www.bcwsupplies.com/graded-lock-case-comics-30-ct">Order Comic Bin</a></div>
-    <div><a target="_blank" href="https://www.amazon.com/dp/B000VTQDKQ">Order Dividers (10)</a></div>
-    <div><a target="_blank" href="https://www.amazon.com/dp/B075DH2HSF">Order Showcase Cover</a></div>
-   </section>
-  </main>
-  <footer>
-   <p class="footer">© 2024 <a href="https://tylermorgan.co">Tyler Morgan</a> & Joey Pineda. All rights reserved.</p>
-  </footer>
-  <script src="/comics/comicgrid.js" integrity="sha384-QU10Rad53ikRefp1MBJE8easzUBtb3iRvsKq268CDa3PJL2ghs3Dr+qA1htDikEX"></script>
-  <script src="/comics/collapsible.js" integrity="sha384-zceCa+MRC5QbmM5ky9YyregZc9gbgmS0/Lnxq7Dn8SjutPtPmTBlQxC355DrEWRy"></script>
-  <script src="/comics/init.js" integrity="sha384-8DmA6/2E+KTBzJBgjZsIcBIZh9dAygq9vyXoVPHuHn7RqdtBXy8grXrbQYB0N5Ep"></script>
- </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Collection</title>
+    <link rel="preload" href="/comics/comicgrid.js" integrity="sha384-LI3otZz9OlVoB2GrKPusaXrQb/Io3askiU90wPPocJMT2ZdVocJUJWeApIijSZlm" as="script">
+    <link rel="preload" href="/comics/init.js" integrity="sha384-8DmA6/2E+KTBzJBgjZsIcBIZh9dAygq9vyXoVPHuHn7RqdtBXy8grXrbQYB0N5Ep" as="script">
+    <link rel="preload" href="/comics/comics.css" integrity="sha384-rAUs4XBU5hiIupm9856fCml+ieKypdZkv1SMcLmjY1PjKLV1i1oF4zp4Cg3HZTqu" as="style">
+    <link rel="preload" href="https://tylermorgan.co/style.css" integrity="sha384-XPux7+PuNxpTy479xro7TzLNUDG123UTKr54aHCIkds1aYl8SkNXk5J8lZuxbDmC" crossorigin="anonymous" as="style">
+    <link rel="stylesheet" href="https://tylermorgan.co/style.css" integrity="sha384-XPux7+PuNxpTy479xro7TzLNUDG123UTKr54aHCIkds1aYl8SkNXk5J8lZuxbDmC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/comics/comics.css" integrity="sha384-rAUs4XBU5hiIupm9856fCml+ieKypdZkv1SMcLmjY1PjKLV1i1oF4zp4Cg3HZTqu">
+    <meta name="description" content="An inventory of Joey's comic collection.">
+    <link rel="icon" type="image/svg" media="(prefers-color-scheme: light)" href="/elements/icons/favicon-day.svg">
+    <link rel="icon" type="image/svg" media="(prefers-color-scheme: dark)" href="/elements/icons/favicon-night.svg">
+    <link rel="icon" type="image/avif" media="(prefers-color-scheme: dark)" href="/elements/icons/favicon-night-180.avif">
+    <link rel="icon" type="image/avif" media="(prefers-color-scheme: light)" href="/elements/icons/favicon-day-180.avif">
+    <link rel="icon" type="image/avif" sizes="192x192" media="(prefers-color-scheme: dark)" href="/elements/icons/favicon-night-192.avif">
+    <link rel="icon" type="image/avif" sizes="192x192" media="(prefers-color-scheme: light)" href="/elements/icons/favicon-day-192.avif">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.avif">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#444444">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121111">
+    <link rel="canonical" href="https://tylerjoey.com/comics/">
+    <meta name="keywords" content="comic, comics, tyler, joey, database, inventory, marvel, dc, collection, image, dark, horse">
+  </head>
+  <body>
+    <header>
+      <h1>COMIC COLLECTION</h1>
+    </header>
+    <main>
+    <div id="table-container"></div>
+    <section class="link-grid">
+      <div><a target="_blank" href="https://www.amazon.com/dp/B00F9E8SGU">Order Modern Bags (100)</a></div>
+      <div><a target="_blank" href="https://www.amazon.com/dp/B00W67VH6Q">Order Current Boards (100)</a></div>
+      <div><a target="_blank" href="https://www.comiccapsule.com/collections/comiccapsule">Order ComicCapsule</a></div>
+      <div><a target="_blank" href="https://www.bcwsupplies.com/graded-lock-case-comics-30-ct">Order Comic Bin</a></div>
+      <div><a target="_blank" href="https://www.amazon.com/dp/B000VTQDKQ">Order Dividers (10)</a></div>
+      <div><a target="_blank" href="https://www.amazon.com/dp/B075DH2HSF">Order Showcase Cover</a></div>
+    </section>
+    </main>
+    <footer>
+      <p class="footer">© 2024 <a href="https://tylermorgan.co">Tyler Morgan</a> & Joey Pineda. All rights reserved.</p>
+    </footer>
+    <script src="/comics/comicgrid.js" integrity="sha384-LI3otZz9OlVoB2GrKPusaXrQb/Io3askiU90wPPocJMT2ZdVocJUJWeApIijSZlm"></script>
+    <script src="/comics/collapsible.js" integrity="sha384-FyMMRsDV5sOL2IVulu9SmJgTAWjLRcVACbL4F8YjIJPTJs8okjbhAyNE+avjXRHk"></script>
+    <script src="/comics/init.js" integrity="sha384-8DmA6/2E+KTBzJBgjZsIcBIZh9dAygq9vyXoVPHuHn7RqdtBXy8grXrbQYB0N5Ep"></script>
+  </body>
 </html>

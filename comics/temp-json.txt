@@ -1,21 +1,30 @@
- {
-  "qty": "", 
-  "publisher": "",
-  "shortname": "",
-  "title": "",
-  "issue": "",
-  "lgy": "",
-  "variant": "",
-  "year": "",
-  "month": "",
-  "writers": [""],
-  "illustrators": [""],
-  "era": "",
-  "cgc": "",
-  "id": "",
-  "notes": [""]
- },
+  {
+    "qty": "", 
+    "publisher": "",
+    "shortname": "",
+    "title": "",
+    "issue": "",
+    "lgy": "",
+    "variant": "",
+    "year": "",
+    "month": "",
+    "writers": [""],
+    "illustrators": [""],
+    "era": "",
+    "cgc": "",
+    "id": "",
+    "notes": [""]
+  },
 
+TO-DOs:
+  Short Term:
+    * Change Spawn 313's publish date on comics.org. Add indicia to issue.
+
+  Long Term:
+    * Ensure all comics are properly indexed on comics.org.
+    * Ensure all fully indexed data is accurate on comic.org.
+    * Ensure all available Incidias and State of Ownerships (SoO) are on comics.org.
+    * Ensure all comic covers are on comics.org.
 
 
  qty = quantity (e.g., 1) | required
@@ -33,3 +42,6 @@
  cgc = cgc grade (e.g., 9.8) | required
  id = comics.org issue id, findable by issue url: comics.org/issue/######/ (e.g., 1822577) | required
  notes = other notes about the comic [multiple value] (e.g., This comic has a ~20cm vertical tear on the back.) | optional
+
+ Comic cover images must be 400x612 and be AVIF (squoosh.app="width: 400px; height: 612px; type: AVIF; quality: 41%; effort: 7;").
+ The image filename must match their appropriate id (e.g., 1822577.avif). Comic cover images are stored in /comics/img/covers/.
