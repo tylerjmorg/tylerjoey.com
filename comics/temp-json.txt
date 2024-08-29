@@ -1,31 +1,93 @@
   {
-    "qty": "", 
+    "qty": i, 
     "publisher": "",
     "shortname": "",
+
     "title": "",
-    "issue": "",
+    "issue_prefix": "",
+    "issue": i,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
+    "has_indicia": "",
     "year": "",
     "month": "",
-    "writers": [""],
-    "illustrators": [""],
-    "era": "",
+    "day": "",
+    "editors": [],
+    "writers": [],
+    "illustrators": [],
+    "age": "",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
-    "id": "",
-    "notes": [""]
+    "cgc_cert": "",
+    "approx_cgc": "",
+
+    "barcodes": [],
+    "issue_id": "",
+    "series_id": "",
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
   },
 
 TO-DOs:
-  Short Term:
-    * Change Spawn 313's publish date on comics.org. Add indicia to issue.
-
   Long Term:
     * Ensure all comics are properly indexed on comics.org.
     * Ensure all fully indexed data is accurate on comic.org.
     * Ensure all available Incidias and State of Ownerships (SoO) are on comics.org.
     * Ensure all comic covers are on comics.org.
+  
+  Indicias missing from comics.org by issue id:
+    01. 53564
+    02. 885602
+    03. 928539
+    04. 41124
+    05. 1030817
+    06. 1030848
+    07. 1031063
+    08. 64439
+    09. 43608
+    10. 2288298
+    11. 1484879
+    12. 211514
+    13. 1033096
+    14. 870499
+    15. 590390
+    16. 758156
+    17. 1096177
+    18. 2246658
+    19. 903976
+    20. 1447147
+    21. 1818294
+    22. 1822577
+    23. 1858531
+    24. 2146275
+    25. 2146813
+    26. 2157714
+    27. 2157712
+    28. 2162801
+    29. 2182939
 
+Grid: LI3otZz9OlVoB2GrKPusaXrQb/Io3askiU90wPPocJMT2ZdVocJUJWeApIijSZlm
+
+Coll: FyMMRsDV5sOL2IVulu9SmJgTAWjLRcVACbL4F8YjIJPTJs8okjbhAyNE+avjXRHk
+
+Init: 8DmA6/2E+KTBzJBgjZsIcBIZh9dAygq9vyXoVPHuHn7RqdtBXy8grXrbQYB0N5Ep
 
  qty = quantity (e.g., 1) | required
  publisher = colophon publisher (e.g., Marvel Worldwide Inc.) | required
@@ -45,3 +107,9 @@ TO-DOs:
 
  Comic cover images must be 400x612 and be AVIF (squoosh.app="width: 400px; height: 612px; type: AVIF; quality: 41%; effort: 7;").
  The image filename must match their appropriate id (e.g., 1822577.avif). Comic cover images are stored in /comics/img/covers/.
+
+ Sort by: 
+ 1. shortname {lexicographically} 
+ 2. series_start {numerically} 
+ 3. series_id {numerically} 
+ 4. issue {numerically}
