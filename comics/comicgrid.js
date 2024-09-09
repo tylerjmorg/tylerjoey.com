@@ -15,7 +15,9 @@ function initializeComicGrid() {
         columnOrder.forEach(column => {
           if (column === 'idFile') {
             const mod = escapeHtmlEntities(item.mod_id ? `-${item.mod_id}` : '');
-            table += `<div><img class="comic-img" alt="A comic cover of ${escapeHtmlEntities(item.cover_alt)}" src="/comics/img/covers/${escapeHtmlEntities(item.issue_id)}${mod}.avif">`;
+            const altText = escapeHtmlEntities(item.cover_alt ? `${item.cover_alt}` : '');
+            const alt = altText ? `alt="A comic cover of ${altText}"` : '';
+            table += `<div><img class="comic-img" ${alt} src="/comics/img/covers/${escapeHtmlEntities(item.issue_id)}${mod}.avif">`;
           } else if (column === 'title') {
             const issuePrefix = escapeHtmlEntities(item.issue_prefix ? `${item.issue_prefix}` : '');
             const issueSuffix = escapeHtmlEntities(item.issue_suffix ? `${item.issue_suffix}` : '');
@@ -41,11 +43,29 @@ function initializeComicGrid() {
             const day = escapeHtmlEntities(item.day ? `-${String(item.day).padStart(2, '0')}` : '');
             table += `<p><span class="label">Release Year:</span> <time datetime="${escapeHtmlEntities(item.year)}${month}${day}">${escapeHtmlEntities(item.year)}</time></p>`;
           } else if (column === 'writers') {
+            const writersArray = item[column];
             const writers = Array.isArray(item[column]) ? escapeHtmlEntities(item[column].join(', ')) : value;
-            table += `<p><span class="label">Writer(s):</span> ${writers}</p>`;
+            let wriLabel = 'Writers'; // Default label
+            if (Array.isArray(writersArray)) {
+                if (writersArray.length === 1) {
+                    wriLabel = 'Writer';
+                }
+            } else {
+                wriLabel = 'Writer'; // If it's not an array, consider it a single writer
+            }
+            table += `<p><span class="label">${wriLabel}:</span> ${writers}</p>`;
           } else if (column === 'illustrators') {
-            const illustrators = Array.isArray(item[column]) ? escapeHtmlEntities(item[column].join(', ')) : value;
-            table += `<p><span class="label">Illustrator(s):</span> ${illustrators}</p>`;
+            const illustratorsArray = item[column];
+            const illustrators = Array.isArray(illustratorsArray) ? escapeHtmlEntities(illustratorsArray.join(', ')) : value;
+            let illLabel = 'Illustrators'; // Default label
+            if (Array.isArray(illustratorsArray)) {
+                if (illustratorsArray.length === 1) {
+                    illLabel = 'Illustrator';
+                }
+            } else {
+                illLabel = 'Illustrator'; // If it's not an array, consider it a single illustrator
+            }
+            table += `<p><span class="label">${illLabel}:</span> ${illustrators}</p>`;
           } else if (column === 'age') {
             table += `<p><span class="label">Age:</span> ${escapeHtmlEntities(item.age)}</p>`;
           } else if (column === 'cgc') {
@@ -60,7 +80,7 @@ function initializeComicGrid() {
             table += `<p>Database Link: <a target="_blank" tabindex="-1" href="https://www.comics.org/issue/${escapeHtmlEntities(item.issue_id)}/">${escapeHtmlEntities(item.issue_id)}</a></p>`;
           } else if (column === 'notes') {
             const hasNotes = Array.isArray(item[column]) && item[column].some(note => note.trim() !== '');
-            const ifnotes = hasNotes ? escapeHtmlEntities(item[column].join('<br><br>')) : ' <span class="label2">none</span>';
+            const ifnotes = hasNotes ? item[column].join(`<br><br>`) : ' <span class="label2">none</span>';
             table += `<p><br><span class="label">Notes:</span>${hasNotes ? '<br>' : ''}${ifnotes}</p></div></div>`;
           } else {
             table += ``;

@@ -1,50 +1,4 @@
 [
-
-  {
-    "qty": 1, 
-    "publisher": "Boom! Studios",
-    "shortname": "Boom!",
-
-    "title": "Firefly: Blue Sun Rising",
-    "issue_prefix": "",
-    "issue": 1,
-    "issue_suffix": "",
-    "lgy": "",
-    "variant": "",
-    "printing":  "",
-    "synopsis": "",
-
-    "has_indicia": "",
-    "year": 2020,
-    "month": 12,
-    "day": "",
-    "editors": [],
-    "writers": ["Greg Pak"],
-    "illustrators": ["Dan McDaid", "Vincenzo Federici", "Marcelo Costa", "Jim Campbell"],
-    "age": "Modern",
-    "pages": "",
-    "price_usd": "",
-
-    "cgc": "",
-    "cgc_cert": "",
-    "approx_cgc": 9.8,
-
-    "barcodes": [],
-    "issue_id": 2180035,
-    "series_id": "",
-    "mod_id": "",
-
-    "signature_qty": "",
-    "signed_by": [],
-    "signed_locations": [],
-
-    "cover_alt": "two people facing toward the reader, surrounded by multiple humanoid faces.",
-    "cover_text": ["Created by", "Joss Whedon", "Blue Sun Rising"],
-
-    "keywords": [],
-    "notes": []
-  },
-  
   {
     "qty": 1, 
     "publisher": "Boom! Studios",
@@ -56,9 +10,11 @@
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
     "synopsis": "Reverend Mother Gaius Helen Mohaim meets with Baron Harkonnen; Duncan Idaho is sent on another hunt and becomes a hunter; Leto Atreides meets Prince Rhombur and begins exploring Ix.",
 
     "has_indicia": "true",
+    "has_soo": "",
     "year": 2020,
     "month": 12,
     "day": "",
@@ -91,10 +47,57 @@
 
   {
     "qty": 1, 
+    "publisher": "Boom! Studios",
+    "shortname": "Boom!",
+
+    "title": "Firefly: Blue Sun Rising",
+    "issue_prefix": "",
+    "issue": 1,
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing":  "",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2020,
+    "month": 12,
+    "day": "",
+    "editors": [],
+    "writers": ["Greg Pak"],
+    "illustrators": ["Dan McDaid", "Vincenzo Federici", "Marcelo Costa", "Jim Campbell"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.8,
+
+    "barcodes": [],
+    "issue_id": 2180035,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "two people facing toward the reader, surrounded by multiple humanoid faces.",
+    "cover_text": ["Created by", "Joss Whedon", "Blue Sun Rising"],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 1, 
     "publisher": "Dark Horse Comics Inc.",
     "shortname": "Dark Horse",
 
-    "has_indicia": "",
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Hellboy and the B.P.R.D.: 1953 - The Witch Tree & Rawhead and Bloody Bones, Halloween Comics Fest",
     "issue_prefix": "",
     "issue": "",
@@ -138,21 +141,45 @@
     "qty": 1,
     "publisher": "Dark Horse Books",
     "shortname": "Dark Horse",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Umbrella Academy",
     "issue_prefix": "",
     "issue": 1,
     "issue_suffix": " - Apocalypse Suite",
     "lgy": "",
     "variant": "Deluxe",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 3,
+    "day": "",
+    "editors": [],
     "writers": ["Gerard Way"],
     "illustrators": ["Gabriel Bá", "Nick Filardi", "Nate Piekos"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 2080461,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a black umbrella resting atop a white bordered circle. The circle is surrounded by a solid black background.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -160,21 +187,45 @@
     "qty": 1,
     "publisher": "Dark Horse Books",
     "shortname": "Dark Horse",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Umbrella Academy",
     "issue_prefix": "",
     "issue": 2,
     "issue_suffix": " - Dallas",
     "lgy": "",
     "variant": "Deluxe",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 6,
+    "day": "",
+    "editors": [],
     "writers": ["Gerard Way"],
     "illustrators": ["Gabriel Bá", "Nick Filardi", "Nate Piekos"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 2124307,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a blue and white-starred umbrella atop a red and white striped circle. The circle is surrounded by a solid red background.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -182,21 +233,45 @@
     "qty": 1,
     "publisher": "Dark Horse Books",
     "shortname": "Dark Horse",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Umbrella Academy",
     "issue_prefix": "",
     "issue": 3,
     "issue_suffix": " - Hotel Oblivion",
     "lgy": "",
     "variant": "Deluxe",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Gerard Way"],
     "illustrators": ["Gabriel Bá", "Nick Filardi", "Nate Piekos"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 2150846,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a yellow outlined umbrella atop a camo black circle. The circle is surrounded by a solid indigo background.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -204,21 +279,45 @@
     "qty": 1,
     "publisher": "Dark Horse Comics LLC",
     "shortname": "Dark Horse",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "You Look Like Death: Tales from the Umbrella Academy",
     "issue_prefix": "",
     "issue": 1,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Gabriel Bá",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Gerard Way", "Shaun Simon"],
     "illustrators": ["I.N.J. Culbard", "Gabriel Bá", "Nate Piekos", "Leonardo Romero", "Jordie Bellaire"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 2147974,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a view of a lively city street. A floating person manipulates medicine tablets to float around their body.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -226,21 +325,45 @@
     "qty": 1,
     "publisher": "DC Comics",
     "shortname": "DC",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Superman",
     "issue_prefix": "",
     "issue": 80,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1993,
     "month": 8,
+    "day": "",
+    "editors": [],
     "writers": ["Dan Jurgens", "Brett Breeding"],
     "illustrators": ["Dan Jurgens", "Brett Breeding"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 6.5,
+
+    "barcodes": [],
     "issue_id": 87735,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "two Supermen. One attacks the other from behind; an atomic explosion occurs in the background.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -248,21 +371,45 @@
     "qty": 1,
     "publisher": "DC Comics",
     "shortname": "DC",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Action Comics",
     "issue_prefix": "",
     "issue": 691,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1993,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Roger Stern"],
     "illustrators": ["Butch Guice", "Denis Rodier"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8,
+
+    "barcodes": [],
     "issue_id": 53564,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "multiple action stills containing various Supermen.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -270,21 +417,45 @@
     "qty": 1,
     "publisher": "DC Comics",
     "shortname": "DC",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Batman Black and White",
     "issue_prefix": "",
     "issue": 4,
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1996,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Brian Bolland", "Jan Strnad", "Archie Goodwin", "Dennis O'Neil", "Katsuhiro Otomo"],
     "illustrators": ["Brian Bolland", "Kevin Nowlan", "Gary Gianni", "Brian Stelfreeze", "Katsuhiro Otomo"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 5.5,
+
+    "barcodes": [],
     "issue_id": 59246,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a greyscale scene of Batman swinging from a rope.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -292,21 +463,45 @@
     "qty": 1, 
     "publisher": "IDW Publishing",
     "shortname": "IDW",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "TMNT: Best of Donatello",
     "issue_prefix": "",
     "issue": 1,
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 11,
+    "day": "",
+    "editors": [],
     "writers": ["Kevin Eastman", "Peter Laird", "Brian Lynch", "Tom Waltz", "Paul Allor"],
     "illustrators": ["Valerio Schiti", "Tom Smith's Scorpion Studios", "Claudia Scartletgithica", "Llaria Traversi", "Cris Peter", "Brahm Revel"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7.5,
+
+    "barcodes": [],
     "issue_id": 2170663,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a minimalist style portrait of Donatello's upper body.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -314,21 +509,45 @@
     "qty": 1,
     "publisher": "Image Comics Inc.",
     "shortname": "Image",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "WildC.A.T.s Trilogy",
     "issue_prefix": "",
     "issue": 2,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1993,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Brandon Choi", "Dafydd Wyn"],
     "illustrators": ["Jae Lee", "Joe Chiodo", "Mike Heisler"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 241905,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "Zealot posing; facing toward the reader.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -336,21 +555,45 @@
     "qty": 1, 
     "publisher": "Image Comics",
     "shortname": "Image",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Spawn",
     "issue_prefix": "",
     "issue": 313,
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Todd McFarlane"],
     "illustrators": ["Carlo Barberi", "Jay David Ramos", "Tom Orzechowski"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 2182686,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "an ogre-like creature bearing a santa costume, looking at the reader with a menacing grin.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -358,21 +601,45 @@
     "qty": 1,
     "publisher": "Malibu Comics",
     "shortname": "Malibu",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Protectors",
     "issue_prefix": "",
     "issue": 6,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1993,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["R. A. Jones"],
     "illustrators": ["Thomas Derenick"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 5.0,
+
+    "barcodes": [],
     "issue_id": 885602,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -380,21 +647,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Avengers",
     "issue_prefix": "",
     "issue": 143,
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1976,
     "month": 1,
+    "day": "",
+    "editors": [],
     "writers": ["Steve Englehart"],
     "illustrators": ["George Pérez", "George Roussos"],
     "age": "Bronze",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 29458,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["There is a ~4cm tear located at the top-right area of the cover."]
   },
 
@@ -402,21 +693,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Iron Man",
     "issue_prefix": "",
     "issue": 158,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1982,
     "month": 5,
+    "day": "",
+    "editors": [],
     "writers": ["Denny O'Neil"],
     "illustrators": ["Carmine Infantino", "Bob Sharen"],
     "age": "Bronze",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 2,
+
+    "barcodes": [],
     "issue_id": 928539,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["A sticker is located on the comic's spine.", "There is a ~11cm wide (base) ~6cm tall semi-trianguler missing torn piece on the bottom of the back cover.", "Minor staining in comic."]
   },
 
@@ -424,21 +739,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Avengers",
     "issue_prefix": "",
     "issue": 259,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
-    "year": "1985",
+    "printing": "",
+    "synopsis": "",
+
+    "year": 1985,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Roger Stern"],
     "illustrators": ["John Buscema", "Christie Scheele"],
     "age": "Bronze",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 40419,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -446,21 +785,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Thing",
     "issue_prefix": "",
     "issue": 32,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1986,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Mike Carlin"],
     "illustrators": ["Ron Wilson", "Adam Philips"],
     "age": "Bronze",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8,
+
+    "barcodes": [],
     "issue_id": 41124,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -468,21 +831,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Avengers",
     "issue_prefix": "",
     "issue": 272,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1986,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Roger Stern"],
     "illustrators": ["John Buscema", "Paul Becton"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 6.5,
+
+    "barcodes": [],
     "issue_id": 41939,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -490,21 +877,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "West Coast Avengers",
     "issue_prefix": "",
     "issue": 14,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1986,
     "month": 11,
+    "day": "",
+    "editors": [],
     "writers": ["Steve Englehart"],
     "illustrators": ["Al Milgrom", "Paul Becton"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7.5,
+
+    "barcodes": [],
     "issue_id": 42078,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -512,21 +923,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "West Coast Avengers",
     "issue_prefix": "",
     "issue": 15,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1986,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Steve Englehart"],
     "illustrators": ["Al Milgrom", "Ken Feduniewicz"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8.5,
+
+    "barcodes": [],
     "issue_id": 1030817,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -534,21 +969,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "West Coast Avengers",
     "issue_prefix": "",
     "issue": 16,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1987,
     "month": 1,
+    "day": "",
+    "editors": [],
     "writers": ["Steve Englehart"],
     "illustrators": ["Al Milgrom", "Christie Scheele"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7.5,
+
+    "barcodes": [],
     "issue_id": 1030848,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -556,21 +1015,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "West Coast Avengers",
     "issue_prefix": "",
     "issue": 17,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1987,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Steve Englehart"],
     "illustrators": ["Joe Sinnott", "Ken Feduniewicz"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8,
+
+    "barcodes": [],
     "issue_id": 1031063,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -578,21 +1061,45 @@
     "qty": 1,
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Classic X-Men",
     "issue_prefix": "",
     "issue": 8,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1987,
     "month": 4,
+    "day": "",
+    "editors": [],
     "writers": ["Chris Claremont"],
     "illustrators": ["Dave Cockrum", "James Sherman", "Michele Robinson", "Paul Becton"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 64439,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -600,21 +1107,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics Group",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Classic X-Men",
     "issue_prefix": "",
     "issue": 10,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1987,
     "month": 6,
+    "day": "",
+    "editors": [],
     "writers": ["Chris Claremont"],
     "illustrators": ["Dave Cockrum", "John Romita Jr.", "Michele Robinson"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8,
+
+    "barcodes": [],
     "issue_id": 64441,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -622,21 +1153,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Punisher",
     "issue_prefix": "",
     "issue": 4,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1987,
     "month": 11,
+    "day": "",
+    "editors": [],
     "writers": ["Mike Baron"],
     "illustrators": ["Klaus Janson"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8,
+
+    "barcodes": [],
     "issue_id": 43608,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -644,21 +1199,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Avengers",
     "issue_prefix": "",
     "issue": 300,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1989,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Walter Simonson"],
     "illustrators": ["John Buscema", "Paul Becton"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.4,
+
+    "barcodes": [],
     "issue_id": 45864,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -666,21 +1245,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Punisher",
     "issue_prefix": "",
     "issue": 23,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1989,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Mike Baron"],
     "illustrators": ["Erik Larsen", "John Wellington"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9,
+
+    "barcodes": [],
     "issue_id": 2288298,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": []
   },
 
@@ -688,21 +1291,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Marvel Comics Presents",
     "issue_prefix": "",
     "issue": 84,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1991,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Barry Windsor-Smith"],
     "illustrators": ["Barry Windsor-Smith"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 50109,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -710,21 +1337,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Guardians of the Galaxy",
     "issue_prefix": "",
     "issue": 19,
     "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1991,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Jim Valentino"],
     "illustrators": ["Steve Montano", "Evelyn Stein"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.2,
+
+    "barcodes": [],
     "issue_id": 50494,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -732,20 +1383,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Uncanny X-Men",
     "issue_prefix": "",
     "issue": 286,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Newsstand",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1992,
     "month": 3,
+    "day": "",
+    "editors": [],
     "writers": ["Whilce Portacio", "Jim Lee", "Scott Lobdell"],
     "illustrators": ["Whilce Portacio", "Jim Lee", "Scott Lobdell", "Joe Rosas"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7.5,
+
+    "barcodes": [],
     "issue_id": 1484879,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -753,20 +1429,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Ghost Rider",
     "issue_prefix": "",
     "issue": 25,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1992,
     "month": 5,
+    "day": "",
+    "editors": [],
     "writers": ["Howard Mackie"],
     "illustrators": ["Ron Wagner", "Mike Witherby", "Gregory Wright", "Janice Chiang"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 85512,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -774,20 +1475,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Spectacular Spider-Man",
     "issue_prefix": "",
     "issue": 189,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1992,
     "month": 6,
+    "day": "",
+    "editors": [],
     "writers": ["J. M. DeMatteis"],
     "illustrators": ["Sal Buscema", "Joe Rosen", "Bob Sharen"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 84612,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["Includes sealed 1992 3-pack of Super Heroes™ cards."]
   },
 
@@ -795,20 +1521,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Web of Spider-Man",
     "issue_prefix": "",
     "issue": 90,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1992,
     "month": 7,
+    "day": "",
+    "editors": [],
     "writers": ["Howard Mackie"],
     "illustrators": ["Alex Saviuk", "Sam de la Rosa", "Rick Parker", "Bob Sharen"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 51513,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -816,20 +1567,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Uncanny X-Men",
     "issue_prefix": "",
     "issue": 293,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1992,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Scott Lobdell"],
     "illustrators": ["Tom Raney", "Rurik Tyler", "Kevin Tinsley"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.4,
+
+    "barcodes": [],
     "issue_id": 51919,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -837,20 +1613,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Marvel Masterpieces Collection",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1993,
     "month": 5,
+    "day": "",
+    "editors": [],
     "writers": [""],
     "illustrators": ["Joe Jusko"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 211514,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "Spider-Man in a crouched position, facing the reader. Spiderwebs embellish the background.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -858,21 +1659,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Daredevil The Man without Fear",
     "issue_prefix": "",
     "issue": 5,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 1994,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Frank Miller"],
     "illustrators": ["John Romita Jr.", "Al Williamson", "Christie Scheele", "Joe Rosen"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8.5,
+
+    "barcodes": [],
     "issue_id": 54576,
+    "series_id": "",
     "mod_id": "ayr7lyl9qtm0",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "a red silhouette of Dardevil over a black and white background. An oldstyle drawing of Daredevil sits at the bottom-right corner of the cover.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["Cover autographed by Charlie Cox at FanX Salt Lake 2023 (2023-09-23)."]
   },
 
@@ -880,20 +1705,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "House of M",
     "issue_prefix": "",
     "issue": 6,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Greg Land",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2005,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Brian Michael Bendis"],
     "illustrators": ["Olivier Coipel", "Frank D'Armata"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 1033096,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -901,20 +1751,45 @@
     "qty": 1, 
     "publisher": "Marvel Comics",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "House of M",
     "issue_prefix": "",
     "issue": 8,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Chris Bachalo",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2005,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Brian Michael Bendis"],
     "illustrators": ["Olivier Coipel", "Frank D'Armata"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 870499,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -922,20 +1797,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 3,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee", "Steve Ditko"],
     "illustrators": ["Steve Ditko", "Jon D'Agostino"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 305952,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -943,20 +1843,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 4,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["John Duffy"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 306800,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -964,19 +1889,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 6,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 308021,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -984,19 +1935,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 9,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 315984,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1004,19 +1981,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 10,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 316904,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1024,19 +2027,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 11,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 321243,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1044,19 +2073,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 12,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 11,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 326521,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1064,19 +2119,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 17,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2006,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 329440,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1084,19 +2165,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 19,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2007,
     "month": 1,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 335261,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1104,19 +2211,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 20,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2007,
     "month": 1,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 335647,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1124,19 +2257,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 22,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2007,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 337487,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1144,19 +2303,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 23,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2007,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Jack Kirby", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 337488,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1164,19 +2349,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "false",
+    "has_soo": "",
     "title": "Spider-Man Collectible Series",
     "issue_prefix": "",
     "issue": 24,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2007,
     "month": 2,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Steve Ditko", "Jack Kirby", "Stan Goldberg"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 340263,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1184,19 +2395,45 @@
     "qty": 1, 
     "publisher": "Marvel Publishing Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Captain America",
     "issue_prefix": "",
     "issue": 49,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2009,
     "month": 6,
+    "day": "",
+    "editors": [],
     "writers": ["Ed Brubaker"],
     "illustrators": ["Luke Ross", "Rick Magyar", "Frank D'Armata"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8.5,
+    
+    "barcodes": [],
     "issue_id": 590390,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1204,19 +2441,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Wolverine: Origins",
     "issue_prefix": "",
     "issue": 48,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2010,
     "month": 7,
+    "day": "",
+    "editors": [],
     "writers": ["Daniel Way"],
     "illustrators": ["Will Conrad", "Andy Troy"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 6.5,
+
+    "barcodes": [],
     "issue_id": 758156,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1224,19 +2487,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Avengers: The Children's Crusade",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Limited Partial Sketch",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2010,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Allan Heinberg"],
     "illustrators": ["Jim Cheung", "Justin Ponsor"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 1096177,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1244,19 +2533,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "The Punisher",
     "issue_prefix": "",
     "issue": 2,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2011,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Greg Rucka"],
     "illustrators": ["Marco Checchetto", "Matt Hollingsworth"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 7,
+
+    "barcodes": [],
     "issue_id": 871100,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["Comic has sticker residue atop the cover."]
   },
 
@@ -1264,40 +2579,91 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Marvel Super Heroes Secret Wars",
     "issue_prefix": "",
     "issue": "",
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Third",
     "printing": "Seventh",
+    "synopsis": "",
+
     "year": 2011,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Various"],
     "illustrators": ["Various"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.9,
-    "issue_id": 2246658,
+
+    "barcodes": [],
+    "issue_id": 2655995,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
-    "notes": ["This is the seventh printing of the third edition.", "Manufactered between 2022-09-30 and 2022-11-01."]
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": ["Manufactered between 2022-09-30 and 2022-11-01."]
   },
 
   {
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Defenders",
     "issue_prefix": "",
     "issue": 2,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2012,
     "month": 3,
+    "day": "",
+    "editors": [],
     "writers": ["Matt Fraction"],
     "illustrators": ["Terry Dodson", "Rachel Dodson", "Sonia Oback"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 903976,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
   
@@ -1305,19 +2671,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Superior Spider-Man",
     "issue_prefix": "",
     "issue": 4,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2013,
     "month": 4,
+    "day": "",
+    "editors": [],
     "writers": ["Dan Slott"],
     "illustrators": ["Giuseppe Camuncoli", "Edgar Delgado"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9,
+
+    "barcodes": [],
     "issue_id": 1079817,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["CGC excluding sticker residue."]
   },
 
@@ -1325,19 +2717,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Superior Spider-Man",
     "issue_prefix": "",
     "issue": 7,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2013,
     "month": 6,
+    "day": "",
+    "editors": [],
     "writers": ["Ellie Pyle"],
     "illustrators": ["Humberto Ramos", "Victor Olazaba"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.4,
+
+    "barcodes": [],
     "issue_id": 1098908,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["CGC excluding sticker residue."]
   },
 
@@ -1345,19 +2763,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Superior Spider-Man",
     "issue_prefix": "",
     "issue": 8,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Direct",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2013,
     "month": 6,
+    "day": "",
+    "editors": [],
     "writers": ["Ellie Pyle"],
     "illustrators": ["Humberto Ramos", "Victor Olazaba"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.4,
+
+    "barcodes": [],
     "issue_id": 1103312,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["CGC excluding sticker."]
   },
 
@@ -1365,19 +2809,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Secret Wars",
     "issue_prefix": "",
     "issue": 5,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2015,
     "month": 10,
+    "day": "",
+    "editors": [],
     "writers": ["Jonathan Hickman"],
     "illustrators": ["Esad Ribić", "Ive Svorcina"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 1447147,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1385,19 +2855,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Avengers",
     "issue_prefix": "",
     "issue": 3,
+    "issue_suffix": "",
     "lgy": 693,
     "variant": "Ed McGuinness",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2018,
     "month": 8,
+    "day": "",
+    "editors": [],
     "writers": ["Jason Aaron"],
     "illustrators": ["Ed McGuinness", "Paco Medina", "David Curiel"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.9,
+
+    "barcodes": [],
     "issue_id": 1818294,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1405,19 +2901,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Avengers",
     "issue_prefix": "",
     "issue": 4,
+    "issue_suffix": "",
     "lgy": 694,
     "variant": "Ed McGuinness",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2018,
     "month": 9,
+    "day": "",
+    "editors": [],
     "writers": ["Jason Aaron"],
     "illustrators": ["Ed McGuinness", "Paco Medina", "David Curiel"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 1822577,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1425,19 +2947,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "True Believers: What If the Alien Costume Had Possessed Spider-Man?",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2018,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Danny Fingeroth"],
     "illustrators": ["Mark Bagley", "Keith Williams", "Tom Vincent", "Ken Lopez"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 3,
+
+    "barcodes": [],
     "issue_id": 1858531,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": ["This comic has a ~20cm vertical tear on the back."]
   },
 
@@ -1445,19 +2993,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "True Believers: X-Men - Mister Sinister",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 11,
+    "day": "",
+    "editors": [],
     "writers": ["Chris Claremont"],
     "illustrators": ["Marc Silvestri", "Glynis Oliver"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 8.5,
+
+    "barcodes": [],
     "issue_id": 2146275,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1465,19 +3039,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "True Believers: X-Men - Greycrow",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 11,
+    "day": "",
+    "editors": [],
     "writers": ["Chris Claremont"],
     "illustrators": ["John Romita Jr.", "Bret Blevins", "Glynis Oliver"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.6,
+
+    "barcodes": [],
     "issue_id": 2146813,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1485,19 +3085,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "True Believers: Black Widow & the Avengers",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["Steve Englehart"],
     "illustrators": ["Don Heck", "Dave Hunt"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.4,
+
+    "barcodes": [],
     "issue_id": 2157714,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1505,19 +3131,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "True Believers: Black Widow - Taskmaster",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2020,
     "month": 12,
+    "day": "",
+    "editors": [],
     "writers": ["David Michelinie"],
     "illustrators": ["George Pérez", "Carl Gafford"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.4,
+
+    "barcodes": [],
     "issue_id": 2157712,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1525,19 +3177,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "True Believers: King in Black - Valkyrie",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2021,
     "month": 1,
+    "day": "",
+    "editors": [],
     "writers": ["Roy Thomas"],
     "illustrators": ["John Buscema", "Tom Palmer"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.8,
+
+    "barcodes": [],
     "issue_id": 2162801,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1545,19 +3223,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Captain America",
     "issue_prefix": "",
     "issue": 117,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "Facsimile",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2021,
     "month": 3,
+    "day": "",
+    "editors": [],
     "writers": ["Stan Lee"],
     "illustrators": ["Gene Colan", "Joe Sinnott"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9.9,
+
+    "barcodes": [],
     "issue_id": 2182939,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "Captain America and The Falcon facing each other. A bird rests on The Falcon's hand.",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   },
 
@@ -1565,19 +3269,45 @@
     "qty": 1, 
     "publisher": "Marvel Worldwide Inc.",
     "shortname": "Marvel",
+
+    "has_indicia": "true",
+    "has_soo": "",
     "title": "Beta Ray Bill",
     "issue_prefix": "",
     "issue": 1,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
     "year": 2021,
     "month": 5,
+    "day": "",
+    "editors": [],
     "writers": ["Daniel Warren Johnson"],
     "illustrators": ["Daniel Warren Johnson", "Mike Spicer"],
     "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
     "approx_cgc": 9,
+
+    "barcodes": [],
     "issue_id": 2215557,
+    "series_id": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
     "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
     "notes": [""]
   }
 ]
