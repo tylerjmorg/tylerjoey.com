@@ -21,6 +21,7 @@ function initializeComicGrid() {
           } else if (column === 'title') {
             const issuePrefix = escapeHtmlEntities(item.issue_prefix ? `${item.issue_prefix}` : '');
             const issueSuffix = escapeHtmlEntities(item.issue_suffix ? `${item.issue_suffix}` : '');
+            const title = item.title ? `${item.title}` : '';
             const issue = escapeHtmlEntities(item.issue ? `#${item.issue}` : '');
             const issueDetails = issuePrefix || issue || issueSuffix ? ` ${issuePrefix}${issue}${issueSuffix}` : '';
             const lgy = escapeHtmlEntities(item.lgy ? ` (${item.lgy})` : '');
@@ -28,7 +29,7 @@ function initializeComicGrid() {
             const printing = escapeHtmlEntities(item.printing ? `${item.printing} Printing` : '');
             const variant_printing = variant && printing ? `${variant}, ${printing}` : `${variant}${printing}`;
             const variant_printing_html = variant_printing ? `<br><span class="label2">${variant_printing}</span>` : '';
-            table += `<p class="comic-title">${escapeHtmlEntities(item.title)}${issueDetails}${lgy}${variant_printing_html}</p></div>`;
+            table += `<p class="comic-title">${title}${issueDetails}${lgy}${variant_printing_html}</p></div>`;
             // Wrap the button and content in a relative container
             table += `<div class="comic-content-wrapper">`;
             table += `<button class="collapsible" id="aboutMeButton-${index}" data-target-id="aboutMeContent-${index}">More info</button>`;
@@ -104,7 +105,6 @@ function escapeHtmlEntities(str) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;')
     .replace(/\\/g, '&#92;')
     .replace(/`/g, '&#96;');
 }
