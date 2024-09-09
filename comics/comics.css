@@ -39,7 +39,12 @@
   }
 
   .comic-title {
+    font: 'Noto Sans', sans-serif;
     height: 85px;
+    font-weight: 400;
+    font-size: 0.94rem;
+    margin-top: 15px;
+    text-align: left;
   }
 
   .comic-img {
@@ -145,6 +150,7 @@ h1 {
 }
 
 .label2 {
+  font: 'Noto Sans', sans-serif;
   font-style: italic;
   color: var(--sec-color);
 }

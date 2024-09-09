@@ -1,19 +1,49 @@
   {
-    "qty": "", 
+    "qty": i, 
     "publisher": "",
     "shortname": "",
+
     "title": "",
-    "issue": "",
+    "issue_prefix": "",
+    "issue": i,
+    "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "printing": "",
+    "synopsis": "",
+
+    "has_indicia": "",
+    "has_soo": "",
     "year": "",
     "month": "",
-    "writers": [""],
-    "illustrators": [""],
-    "era": "",
+    "day": "",
+    "editors": [],
+    "writers": [],
+    "illustrators": [],
+    "age": "",
+    "pages": "",
+    "price_usd": "",
+
     "cgc": "",
-    "id": "",
-    "notes": [""]
+    "cgc_cert": "",
+    "approx_cgc": "",
+
+    "barcodes": [],
+    "issue_id": "",
+    "series_id": "",
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
   },
 
 TO-DOs:
