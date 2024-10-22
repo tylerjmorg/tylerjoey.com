@@ -3,13 +3,13 @@
   font-size: 0.89rem;
 }
 
-@media (min-width: 951px) {
+@media (min-width: 1081px) {
   .comic-grid {
     justify-content: center;
     margin: auto;
     display: grid;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1350px;
     gap: 30px 10px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
@@ -31,7 +31,7 @@
     margin: auto;
     display: grid;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1350px;
     gap: 30px 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -40,7 +40,7 @@
 
   .comic-title {
     font: 'Noto Sans', sans-serif;
-    height: 85px;
+    height: 4.6rem;
     font-weight: 400;
     font-size: 0.94rem;
     margin-top: 15px;
@@ -53,9 +53,46 @@
   }
 }
 
+@media (max-width: 1080px) {
+  .comic-grid {
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    width: 97.5%;
+    font-size: 0.92rem;
+  }
+
+  .comic {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--secondary-bkg-color);
+  }
+
+  .link-grid {
+    padding-top: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 30px 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    font-size: 0.92rem;
+  }
+
+  .comic-title {
+    height: 4.6rem;
+  }
+}
 
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .comic-grid {
     justify-content: center;
     margin: auto;
@@ -89,19 +126,19 @@
   }
 
   .comic-title {
-    height: 105px;
+    height: 4.6rem;
   }
 }
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
   .comic-grid {
     justify-content: center;
     margin: auto;
     display: grid;
     flex-wrap: wrap;
-    gap: 30px 10px;
+    gap: 20px 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     width: 97.5%;
@@ -129,12 +166,20 @@
   }
 
   .comic-title {
-    height: 105px;
+    height: 4rem;
+    font-size: 0.92rem;
   }
 
   .comic-img {
     min-height: 205px;
     min-width: 134px;
+  }
+}
+
+@media (max-width: 520px) {
+  .comic-title {
+    height: 4rem;
+    font-size: 0.79rem;
   }
 }
 
