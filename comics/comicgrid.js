@@ -22,13 +22,16 @@ function initializeComicGrid() {
             const issuePrefix = escapeHtmlEntities(item.issue_prefix ? `${item.issue_prefix}` : '');
             const issueSuffix = escapeHtmlEntities(item.issue_suffix ? `${item.issue_suffix}` : '');
             const title = item.title ? `${item.title}` : '';
-            const issue = escapeHtmlEntities(item.issue ? `#${item.issue}` : '');
-            const volume = escapeHtmlEntities(item.volume ? ` Vol. ${item.volume}` : '');
-            const issueDetails = issuePrefix || volume || issue || issueSuffix ? ` ${issuePrefix}${volume}${issue}${issueSuffix}` : '';
+            const issue_rep = escapeHtmlEntities(item.issue_rep ? `${item.issue_rep}${item.issue_rep === '#' ? '' : ' '}` : '');
+            const issue = item.issue_alt || item.issue || '';
+            const volume_rep = escapeHtmlEntities(item.volume_rep ? `${item.volume_rep} ` : '');
+            const volume = item.volume_alt || item.volume || '';
+            const issueDetails = issuePrefix || volume_rep || volume || issue_rep || issue || issueSuffix ? ` ${issuePrefix}${volume_rep}${volume}${issue_rep}${issue}${issueSuffix}` : '';
             const lgy = escapeHtmlEntities(item.lgy ? ` (${item.lgy})` : '');
             const variant = escapeHtmlEntities(item.variant ? `${item.variant} Edition` : '');
+            const edition_suffix = escapeHtmlEntities(item.edition_suffix ? ` ${item.edition_suffix}` : '');
             const printing = escapeHtmlEntities(item.printing ? `${item.printing} Printing` : '');
-            const variant_printing = variant && printing ? `${variant}, ${printing}` : `${variant}${printing}`;
+            const variant_printing = variant && printing ? `${variant}${edition_suffix}, ${printing}` : `${variant}${edition_suffix}${printing}`;
             const variant_printing_html = variant_printing ? `<br><span class="label2">${variant_printing}</span>` : '';
             table += `<p class="comic-title">${title}${issueDetails}${lgy}${variant_printing_html}</p></div>`;
             // Wrap the button and content in a relative container

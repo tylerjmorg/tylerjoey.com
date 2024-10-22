@@ -6,10 +6,15 @@
     "title": "",
     "issue_prefix": "",
     "issue": i,
+    "issue_alt": "",
+    "issue_rep": "",
     "volume": i,
+    "volume_alt": "",
+    "volume_rep": "",
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
+    "edition_suffix": "",
     "printing": "",
     "synopsis": "",
 
@@ -74,6 +79,10 @@ TO-DOs:
  cgc = cgc grade (e.g., 9.8) | required
  id = comics.org issue id, findable by issue url: comics.org/issue/######/ (e.g., 1822577) | required
  notes = other notes about the comic [multiple value] (e.g., This comic has a ~20cm vertical tear on the back.) | optional
+ issue_rep = How the issue number is represented in indicia. Is enumeration ("#", "No", "No.", "")
+ volume_rep = How the volume number is represented in indicia. Is enumeration ("Vol", "Vol.", "Volume", "")
+ issue_alt = If the issue number is spelt out in the indicia, add to this object. (e.g., two)
+ volume_alt = If the volume number is spelt out in the indicia, add to this object. (e.g., two)
 
  Comic cover images must be 400x612 and be AVIF (squoosh.app="width: 400px; height: 612px; type: AVIF; quality: 41%; effort: 7;").
  The image filename must match their appropriate id (e.g., 1822577.avif). Comic cover images are stored in /comics/img/covers/. If the cover is signed or is modified in anyway, please generate a random, caps insensitive, 12 character, alphanumeric string and add to mod_id. Filename for modified cover will be [issue_id]-[mod_id].avif (e.g., 1822577-abc123def456.avif).
