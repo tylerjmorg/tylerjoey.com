@@ -6,6 +6,7 @@
     "title": "",
     "issue_prefix": "",
     "issue": i,
+    "volume": i,
     "issue_suffix": "",
     "lgy": "",
     "variant": "",
@@ -34,6 +35,12 @@
     "series_name": "",
     "series_start": "",
     "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
 
     "signature_qty": "",
     "signed_by": [],

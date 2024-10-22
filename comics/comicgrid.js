@@ -23,7 +23,8 @@ function initializeComicGrid() {
             const issueSuffix = escapeHtmlEntities(item.issue_suffix ? `${item.issue_suffix}` : '');
             const title = item.title ? `${item.title}` : '';
             const issue = escapeHtmlEntities(item.issue ? `#${item.issue}` : '');
-            const issueDetails = issuePrefix || issue || issueSuffix ? ` ${issuePrefix}${issue}${issueSuffix}` : '';
+            const volume = escapeHtmlEntities(item.volume ? ` Vol. ${item.volume}` : '');
+            const issueDetails = issuePrefix || volume || issue || issueSuffix ? ` ${issuePrefix}${volume}${issue}${issueSuffix}` : '';
             const lgy = escapeHtmlEntities(item.lgy ? ` (${item.lgy})` : '');
             const variant = escapeHtmlEntities(item.variant ? `${item.variant} Edition` : '');
             const printing = escapeHtmlEntities(item.printing ? `${item.printing} Printing` : '');

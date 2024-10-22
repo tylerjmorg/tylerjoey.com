@@ -34,6 +34,12 @@
     "series_id": 165324,
     "mod_id": "",
 
+    "arc_iss_url": "https://web.archive.org/web/20240910094318/https://www.comics.org/issue/2180034/",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
     "signature_qty": 0,
     "signed_by": [],
     "signed_locations": [],
@@ -146,8 +152,9 @@
     "has_soo": "",
     "title": "The Umbrella Academy",
     "issue_prefix": "",
-    "issue": 1,
-    "issue_suffix": " - Apocalypse Suite",
+    "issue": "",
+    "volume": 1,
+    "issue_suffix": ": Apocalypse Suite",
     "lgy": "",
     "variant": "Deluxe",
     "printing": "",
@@ -192,8 +199,9 @@
     "has_soo": "",
     "title": "The Umbrella Academy",
     "issue_prefix": "",
-    "issue": 2,
-    "issue_suffix": " - Dallas",
+    "issue": "",
+    "volume": 2,
+    "issue_suffix": ": Dallas",
     "lgy": "",
     "variant": "Deluxe",
     "printing": "",
@@ -238,8 +246,9 @@
     "has_soo": "",
     "title": "The Umbrella Academy",
     "issue_prefix": "",
-    "issue": 3,
-    "issue_suffix": " - Hotel Oblivion",
+    "issue": "",
+    "volume": 3,
+    "issue_suffix": ": Hotel Oblivion",
     "lgy": "",
     "variant": "Deluxe",
     "printing": "",
@@ -3309,5 +3318,390 @@
 
     "keywords": [],
     "notes": [""]
+  },
+
+  {
+    "qty": 1, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Wolverine by Benjamin Percy",
+    "issue_prefix": "",
+    "issue": "",
+    "volume": 1,
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "Second",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2020,
+    "month": 11,
+    "day": 18,
+    "editors": [],
+    "writers": ["Benjamin Percy", "Zeb Wells"],
+    "illustrators": ["Viktor Bogdanović", "Matthew Wilson", "Cory Petit", "Adam Kubert", "Frank Martin", "Frank D'Armata", "David Finch", "Alex Ross", "Jeehyung Lee", "Jim Lee", "Jason Keith", "Rahzzah", "Skottie Young", "Gabriele Dell'Otto", "Gerald Parel", "Marcos Martín", "Tony S. Daniel", "Rain Beredo", "Tom Raney", "Dean White", "Greg Hildebrandt", "Patrick Gleason", "Morry Hollowell", "Gurihiru"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2219527,
+    "series_id": 172129,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 1, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Wolverine by Benjamin Percy",
+    "issue_prefix": "",
+    "issue": "",
+    "volume": 2,
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "Second",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2021,
+    "month": 8,
+    "day": 25,
+    "editors": [],
+    "writers": ["Benjamin Percy"],
+    "illustrators": ["Viktor Bogdanović", "Matthew Wilson", "Cory Petit", "Adam Kubert", "Antonio Fabela", "Frank Martin", "Scot Eaton", "J. P. Mayer", "Jesus Aburtov", "Frank D'Armata", "Bill Sienkiewicz", "Arthur Adams", "Paul Mounts", "Dave Rapoza", "Ryan Browne", "David Finch", "Carlos Pacheco", "Rafael Fonteriz", "Matt Milla"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2258757,
+    "series_id": 172129,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 1, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Wolverine by Benjamin Percy",
+    "issue_prefix": "",
+    "issue": "",
+    "volume": 3,
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "First",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2022,
+    "month": 2,
+    "day": 16,
+    "editors": [],
+    "writers": ["Benjamin Percy"],
+    "illustrators": ["Matthew Wilson", "Cory Petit", "Adam Kubert", "Frank Martin", "J. P. Mayer", "Frank D'Armata", "Espen Grundetjern", "Lan Medina", "Cam Smith", "Java Tartaglia", "Paco Diaz Luque", "Dijjo Lima", "Javier Fernández", "Peach Momoko", "Ryan Stegman", "Jason Keith", "InHyuk Lee", "Gerardo Zaffino", "Rain Beredo", "Giuseppe Camuncoli", "Jean-François Beaulieu", "Tony S. Daniel", "Marcelo Maiolo", "Joe Jusko", "Patrick Gleason", "Greg Land", "Alex Maleev", "E. M. Gist", "Tyler Kirkham", "Arif Prianto"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2357691,
+    "series_id": 172129,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 1, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Ultimates",
+    "issue_prefix": "",
+    "issue": 2,
+    "volume": "",
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2024,
+    "month": 9,
+    "day": "",
+    "editors": [],
+    "writers": ["Deniz Camp"],
+    "illustrators": ["Dike Ruan", "Neeraj Menon", "Juan Frigeri", "Federico Blee", "Travis Lanham"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2645575,
+    "series_id": 212769,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 1, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Ultimates",
+    "issue_prefix": "",
+    "issue": 3,
+    "volume": "",
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "",
+    "synopsis": "",
+
+    "has_indicia": "",
+    "has_soo": "",
+    "year": 2024,
+    "month": 10,
+    "day": "",
+    "editors": [],
+    "writers": ["Deniz Camp"],
+    "illustrators": ["Dike Ruan", "Neeraj Menon", "Juan Frigeri", "Federico Blee", "Travis Lanham"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2652161,
+    "series_id": 212769,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 2, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Wolverine: Revenge - Red Band",
+    "issue_prefix": "",
+    "issue": 1,
+    "volume": "",
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2024,
+    "month": 10,
+    "day": "",
+    "editors": [],
+    "writers": ["Jonathan Hickman"],
+    "illustrators": ["Greg Capullo", "Tim Townsend", "FCO Plascencia", "Cory Petit"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2653229,
+    "series_id": 214630,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
+  },
+
+  {
+    "qty": 1, 
+    "publisher": "Marvel Worldwide Inc.",
+    "shortname": "Marvel",
+
+    "title": "Wolverine: Revenge - Red Band",
+    "issue_prefix": "",
+    "issue": 2,
+    "volume": "",
+    "issue_suffix": "",
+    "lgy": "",
+    "variant": "",
+    "printing": "",
+    "synopsis": "",
+
+    "has_indicia": "true",
+    "has_soo": "",
+    "year": 2024,
+    "month": 11,
+    "day": "",
+    "editors": [],
+    "writers": ["Jonathan Hickman"],
+    "illustrators": ["Greg Capullo", "Tim Townsend", "FCO Plascencia", "Cory Petit"],
+    "age": "Modern",
+    "pages": "",
+    "price_usd": "",
+
+    "cgc": "",
+    "cgc_cert": "",
+    "approx_cgc": 9.9,
+
+    "barcodes": [],
+    "issue_id": 2660902,
+    "series_id": 214630,
+    "series_name": "",
+    "series_start": "",
+    "mod_id": "",
+
+    "arc_iss_url": "",
+    "arc_indsoo_url": "",
+    "arc_ind_path": "",
+    "arc_soo_path": "",
+    "arc_cover_path": "",
+
+    "signature_qty": "",
+    "signed_by": [],
+    "signed_locations": [],
+
+    "cover_alt": "",
+    "cover_text": [],
+
+    "keywords": [],
+    "notes": []
   }
 ]

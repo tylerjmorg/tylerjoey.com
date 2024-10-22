@@ -147,6 +147,7 @@ h1 {
 
 .comic-img {
   width: 100%;
+  border-radius: 7px;
 }
 
 .label2 {
