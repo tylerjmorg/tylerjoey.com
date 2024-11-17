@@ -7,6 +7,6 @@
 # Disallow 404 error page
 User-agent: *
 Disallow: /404.html/
-Disaalow: /comics/test/
+Disallow: /comics/test/
 
 Sitemap: https://tylerjoey.com/docs/sitemap/sitemap.xml
