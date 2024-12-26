@@ -69,66 +69,68 @@ function createImageElement(item, index) {
   return imgDiv;
 }
 
-// Function to create the title section
 function createTitleElement(item, index) {
-  const titleDiv = document.createElement('div');
-  const title = item.title || '';
+  const { title = '', lgy } = item;
   const issueDetails = generateIssueDetails(item);
   const variantPrinting = generateVariantPrinting(item);
-  const lgy = item.lgy ? ` (${item.lgy})` : '';
 
-  const titleText = `${title}${issueDetails}${lgy}${variantPrinting}`;
+  const lgyText = lgy ? ` (${lgy})` : '';
+  const titleText = `${title}${issueDetails}${lgyText}${variantPrinting}`;
+  
   const titleParagraph = document.createElement('p');
-  titleParagraph.classList.add('comic-title');
   titleParagraph.textContent = titleText;
 
-  titleDiv.appendChild(titleParagraph);
-  return titleDiv;
+  return titleParagraph;
 }
 
 // Function to create the quantity section
 function createQuantityElement(item) {
-  const qtyDiv = document.createElement('div');
   const qtyParagraph = document.createElement('p');
-  qtyParagraph.classList.add('comic-qty');
-  qtyParagraph.textContent = `Qty: ${item.qty}`;
-  qtyDiv.appendChild(qtyParagraph);
-  return qtyDiv;
+
+  const labelSpan = document.createElement('span');
+  labelSpan.classList.add('label');
+  labelSpan.textContent = 'Qty:';
+
+  qtyParagraph.appendChild(labelSpan);
+  qtyParagraph.appendChild(document.createTextNode(` ${item.qty}`));
+
+  return qtyParagraph;
 }
 
 // Function to create the publisher section
 function createPublisherElement(item) {
-  const publisherDiv = document.createElement('div');
   const publisherParagraph = document.createElement('p');
-  publisherParagraph.classList.add('comic-publisher');
-  publisherParagraph.textContent = `Publisher: ${item.publisher || 'N/A'}`;
+
+  const publisherText = document.createElement('span');
+  publisherText.textContent = 'Publisher:';
+  publisherText.classList.add('label');
+  publisherParagraph.appendChild(publisherText);
+
+  publisherParagraph.appendChild(document.createTextNode(` ${item.publisher || ''}`));
 
   if (item.shortname) {
-    const shortnameSpan = document.createElement('span');
-    shortnameSpan.classList.add('shortname');
-    shortnameSpan.textContent = ` (${item.shortname})`;
-    publisherParagraph.appendChild(shortnameSpan);
+    publisherParagraph.appendChild(document.createTextNode(` (${item.shortname})`));
   }
 
-  publisherDiv.appendChild(publisherParagraph);
-  return publisherDiv;
+  return publisherParagraph;
 }
+
+
 
 // Function to create the release year section
 function createYearElement(item) {
-  const yearDiv = document.createElement('div');
   const yearParagraph = document.createElement('p');
-  yearParagraph.classList.add('comic-year');
-  const releaseDate = `${item.year}-${String(item.month).padStart(2, '0')}-${String(item.day).padStart(2, '0')}`;
-  yearParagraph.textContent = `Release Year: ${item.year}`;
+  const textNode = document.createTextNode('Release Year: ');
 
+  const releaseDate = `${item.year}-${String(item.month).padStart(2, '0')}-${String(item.day).padStart(2, '0')}`;
   const timeTag = document.createElement('time');
   timeTag.setAttribute('datetime', releaseDate);
   timeTag.textContent = item.year;
+
+  yearParagraph.appendChild(textNode);
   yearParagraph.appendChild(timeTag);
 
-  yearDiv.appendChild(yearParagraph);
-  return yearDiv;
+  return yearParagraph;
 }
 
 // Function to create the creator section (writers/illustrators)
@@ -182,7 +184,6 @@ function createApproxCGCElement(item) {
 
 // Function to create the database link section
 function createDatabaseLinkElement(item) {
-  const linkDiv = document.createElement('div');
   const link = document.createElement('a');
   link.setAttribute('href', `https://www.comics.org/issue/${item.issue_id}/`);
   link.setAttribute('target', '_blank');
@@ -190,11 +191,10 @@ function createDatabaseLinkElement(item) {
   link.textContent = item.issue_id;
 
   const linkParagraph = document.createElement('p');
-  linkParagraph.classList.add('comic-db-link');
   linkParagraph.textContent = 'Database Link: ';
   linkParagraph.appendChild(link);
-  linkDiv.appendChild(linkParagraph);
-  return linkDiv;
+
+  return linkParagraph;  // return only the <p> element
 }
 
 // Function to create the notes section
