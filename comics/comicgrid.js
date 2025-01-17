@@ -82,7 +82,7 @@ function initializeComicGrid() {
             const approx_cgc = approxCgcValue ? `<p><span class="label">Approx CGC:</span> ${approxCgcValue}</p>` : '';
             table += approx_cgc;
           } else if (column === 'idLink') {
-            table += `<p>Database Link: <a target="_blank" tabindex="-1" href="https://www.comics.org/issue/${escapeHtmlEntities(item.issue_id)}/">${escapeHtmlEntities(item.issue_id)}</a></p>`;
+            table += `<p>Database Link: <a target="_blank" class="external" tabindex="-1" href="https://www.comics.org/issue/${escapeHtmlEntities(item.issue_id)}/">${escapeHtmlEntities(item.issue_id)}</a></p>`;
           } else if (column === 'notes') {
             const hasNotes = Array.isArray(item[column]) && item[column].some(note => note.trim() !== '');
             const ifnotes = hasNotes ? item[column].join(`<br><br>`) : ' <span class="label2">none</span>';
