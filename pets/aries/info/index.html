@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find My Owner | Aries</title>
+    <title>Info | Aries</title>
     <link rel="stylesheet" href="https://tylermorgan.co/style.css" crossorigin>
     <link rel="stylesheet" crossorigin href="https://tylermorgan.co/external_links.css">
     <meta name="description" content="Aries' information to help find his owners.">
@@ -16,17 +16,41 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.avif">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#444444">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121111">
-    <link rel="canonical" href="https://tylerjoey.com/aries/find/">
-    <meta name="keywords" content="aries, find my, tyler, joey, owner, home, dog, pet">
+    <link rel="canonical" href="https://tylerjoey.com/aries/info/">
+    <meta name="keywords" content="aries, find my, tyler, joey, owner, home, dog, pet, information, info">
     <style>
+      @media (max-width: 380px) {
+        .profile-img {
+          width: 100px;
+          height: 100px;
+          right: -5px;
+          top: -5px;
+        }
+      }
+      @media (min-width: 381px) {
+        .profile-img {
+          width: 150px;
+          height: 150px;
+          right: -15px;
+          top: -15px;
+        }
+      }
       h1 {
         text-align: center;
       }
       h2 {
         margin-top: 0px;
-        min-width: 150px;
-        width: 40%;
         text-align: left;
+        position: static;
+        width: fit-content;
+      }
+      .outer-h2{
+        width: 45%;
+        max-width: 250px;
+        position: relative;
+      }
+      h3 {
+        margin-bottom: 11px;
       }
       .info {
         margin: auto;
@@ -42,13 +66,9 @@
         position: relative;
       }
       .profile-img {
-        width: 150px;
-        height: 150px;
         border-radius: 50%;
         position: absolute;
         display: block;
-        right: -15px;
-        top: -15px;
         box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3);
       }
       .item {
@@ -61,14 +81,53 @@
         font-size: 1.2rem;
       }
       .value {
-        margin-top: -20px;
+        margin-top: -10px;
         font-size: 0.8rem;
       }
       ul {
-        padding-top: 10px;
+        padding-top: 2px;
       }
       li {
         list-style-type: disc;
+        margin-left: -15px;
+      }
+      .pet {
+        background-image: url(/elements/icons/utility/pet.svg);
+        background-position: absolute center right;
+        background-repeat: no-repeat;
+        background-size: 1em;
+        padding-right: 2rem;
+      }
+      .owners {
+        background-image: url(/elements/icons/utility/owners.svg);
+        background-repeat: no-repeat;
+        background-size: 1em;
+        padding-right: 2rem;
+      }
+      @media (max-width: 578px) {
+        .pet {
+          background-position: absolute;
+          background-position-x: 47px;
+        }
+      }
+      @media (max-width: 671px) {
+        .owners {
+          background-position: absolute;
+          background-position-x: 85px;
+        }
+      }
+      @media (min-width: 579px) {
+        .pet {
+          background-position: center right;
+        }
+      }
+      @media (min-width: 672px) {
+        .owners {
+          background-position: center right;
+        }
+      }
+      .footer {
+        text-wrap: pretty;
       }
     </style>
   </head>
@@ -79,59 +138,70 @@
     <main>
       <section class="info" id="pet-info">
         <div class="inner-info">
-          <h2>Pet Information</h2>
+          <div class="outer-h2"><h2 class="pet">Pet Information</h2></div>
           <img class="profile-img" src="/elements/img/aries.avif" alt="Aries' Profile Picture">
           <section class="item" id="pet-name">
-            <p class="label">Name</p>
+            <h3 class="label">Name</h3>
             <p class="value">Aries</p>
           </section>
           <section class="item" id="microchip">
-            <p class="label">Microchip Number</p>
+            <h3 class="label">Microchip Number</h3>
             <p class="value"><a class="content-link external" href="https://www.24petwatch.com/lost-pet-protection/report-lost-found-pet#found-pet-report">941000028801843</a></p>
           </section>
           <section class="item" id="breed">
-            <p class="label">Breed</p>
+            <h3 class="label">Breed</h3>
             <p class="value">Goldendoodle</p>
           </section>
           <section class="item" id="sex">
-            <p class="label">Sex</p>
+            <h3 class="label">Sex</h3>
             <p class="value">Male</p>
           </section>
           <section class="item" id="color">
-            <p class="label">Color</p>
+            <h3 class="label">Color</h3>
             <p class="value">Golden White</p>
           </section>
           <section class="item" id="license">
-            <p class="label">License</p>
-            <p class="value">River Heights, Utah (2025) — City Tag No. 026</p>
+            <h3 class="label">License</h3>
+            <p class="value">City Tag No. 026 — River Heights, Utah (2025)</p>
           </section>
           <section class="item" id="vaccinations">
-            <p class="label">Valid Vaccinations</p>
+            <h3 class="label">Valid Vaccinations</h3>
             <ul class="value">
               <li>DA2PP (Distemper, Adenovirus Type 2, Parvovirus, Parainfluenza)</li>
               <li>Lepto</li>
-              <li>Rabies</li>
+              <li>Rabies — Tag No. 174197 (2024)</li>
               <li>Bordetella</li>
               <li>Worm Interceptor</li>
             </ul>
+          </section>
+          <section class="item" id="vet">
+            <h3 class="label">Veterinarian</h3>
+            <p class="value"><a class="content-link external" href="https://www.bridgerlandanimalhospital.com/">Bridgerland Cache Animal Hospital</a></p>
+            <p class="value">95 West 900 North<br>Logan, Utah 84321</p>
+            <p class="value"><a class="content-link external" href="tel:+14357522151">+1 (435) 752-2151</a></p>
+            <p class="value"><a class="content-link external" href="mailto:bcah95@gmail.com">bcah95@gmail.com</a></p>
           </section>
         </div>
       </section>
       <section class="info" id="owner-info">
         <div class="inner-info">
-          <h2>Owner Information</h2>
+          <div class="outer-h2"><h2 class="owners">Owner Information</h2></div>
           <img class="profile-img" src="/elements/img/tyler_joey.avif" alt="Tyler and Joey Profile Picture">
           <section class="item" id="owner-name">
-            <p class="label">Names</p>
+            <h3 class="label">Names</h3>
             <p class="value">Tyler Morgan & Joey Pineda</p>
           </section>
           <section class="item" id="email">
-            <p class="label">Email</p>
-            <p class="value"><a class="content-link" href="mailto:aries@tylerjoey.com">aries@tylerjoey.com</a></p>
+            <h3 class="label">Email</h3>
+            <p class="value"><a class="content-link external" href="mailto:aries@tylerjoey.com">aries@tylerjoey.com</a></p>
           </section>
           <section class="item" id="phone">
-            <p class="label">Phone</p>
-            <p class="value"><a class="content-link" href="tel:+14352321682">+1 (435) 232-1682</a></p>
+            <h3 class="label">Phone</h3>
+            <p class="value"><a class="content-link external" href="tel:+14352321682">+1 (435) 232-1682</a></p>
+          </section>
+          <section class="item" id="address">
+            <h3 class="label">Address</h3>
+            <p class="value">Call, text, or email for information.</p>
           </section>
         </div>
       </section>
