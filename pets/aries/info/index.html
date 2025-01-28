@@ -138,6 +138,9 @@
       .footer {
         text-wrap: pretty;
       }
+      .footer-links, .footer-link {
+        list-style-type: none;
+      }
     </style>
   </head>
   <body>
@@ -216,9 +219,16 @@
       </section>
     </main>
     <footer>
-      <p class="footer">© <span id="year_2025"></span> <a href="https://tylermorgan.co" class="content-link external" target="_blank">Tyler Morgan</a> & Joey Pineda. All rights reserved.</p>
-      <p class="footer"><a class="content-link external" rel="privacy-policy" href="https://tylermorgan.co/privacy-policy/">Privacy Policy</a></p>
+      <p class="footer">© <span data-copyright-currentyear></span> <a href="https://tylermorgan.co" class="content-link external">Tyler Morgan</a> & Joey Pineda. All rights reserved.</p>
+      <ul class="footer-links">
+        <li class="footer-link">
+          <a class="content-link external" rel="privacy-policy" href="https://tylermorgan.co/privacy-policy/">Privacy Policy</a>
+        </li>
+        <li class="footer-link" style="margin-left:0;">
+          <a class="content-link external" href="https://tylermorgan.co/intellectual-property/">Intellectual Property</a>
+        </li>
+      </ul>
     </footer>
-    <script src="https://tylermorgan.co/year_2025.js" type="module"></script>
+    <script src="https://tylermorgan.co/copyright_year.js"></script>
   </body>
 </html>
